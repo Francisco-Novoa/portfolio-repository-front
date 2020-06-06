@@ -1,10 +1,10 @@
 import React from "react"
 
-export default function Button_Nav( {url, text}) {
+export default function ButtonNav( {url, text}) {
 
     return (
         <li className="current">
-            <a href={url} target="_blank">
+            <a href={url} target="blank">
                 {text}
             </a>
         </li>
