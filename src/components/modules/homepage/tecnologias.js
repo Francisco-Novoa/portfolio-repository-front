@@ -1,20 +1,34 @@
 import React from "react"
 import { RiComputerLine } from "react-icons/ri";
+import ButtonAction from "../../buttons/button-actions";
 
-function Proyecto({ title, description }) {
+function Proyecto({ title, description, href, text }) {
   return (
     <div className="col-6 col-12-medium">
-      <section>
+      <section style={{
+        display:"flex",
+        alignContent:"space-between",
+        flexDirection:"column",
+        height:"100%"
+        }} >
         <div className="row">
           <div className="col-2">
             <RiComputerLine size="30" color="grey" />
           </div>
-          <div className="col-10">
+          <div className="col-10" >
             <h2> {title}</h2>
-
           </div>
         </div>
         <p>{description}</p>
+        <div className="row" style={{height:"100%", display:"flex", justifyContent:"center"}}>
+
+          <ButtonAction
+            href={href}
+            text={text}
+            // eslint-disable-next-line
+            style={"style3"}
+          />
+        </div>
       </section>
     </div>
   )
@@ -35,12 +49,24 @@ export default function ProyectosMenores() {
           </header>
           <div className="feature-list">
             <div className="row">
-              <Proyecto title="Proyecto Pequeño 1" description="Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final. También se usa en programas como Microsoft PowerPoint o Genially como plantillas para remplazar con texto " />
-              <Proyecto title="Proyecto Pequeño 2" description="Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final. También se usa en programas como Microsoft PowerPoint o Genially como plantillas para remplazar con texto " />
-              <Proyecto title="Proyecto Pequeño 3" description="Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final. También se usa en programas como Microsoft PowerPoint o Genially como plantillas para remplazar con texto " />
-              <Proyecto title="Proyecto Pequeño 4" description="Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final. También se usa en programas como Microsoft PowerPoint o Genially como plantillas para remplazar con texto " />
-              <Proyecto title="Proyecto Pequeño 5" description="Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final. También se usa en programas como Microsoft PowerPoint o Genially como plantillas para remplazar con texto " />
-              <Proyecto title="Proyecto Pequeño 6" description="Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final. También se usa en programas como Microsoft PowerPoint o Genially como plantillas para remplazar con texto " />
+              <Proyecto
+                title="Card Sorter"
+                description="Una pagina que use para aprender a manipular el DOM directamente, crea un grupo de cartas aleatorias y las ordena de mayor a menor usando uno de varios metodos de sorting"
+                href="https://panchoportafoliobackend.herokuapp.com/cardsorter/index.html"
+                text="Ordenador de Cartas"
+              />
+              <Proyecto
+                title="Music Player"
+                description="Proyecto hecho como parte de 4Geeks Academy, es un reproductor de musica que extrae los archivos desde una api de su propiedad."
+                href="https://panchoportafoliobackend.herokuapp.com/musicplayer/index.html"
+                text="8 bits"
+              />
+              <Proyecto 
+                title="Tic Tac Toe/Noughts and Crosses/Gato" 
+                description="Proyecto hecho como parte de 4Geeks Academy, es un juego simple de gato, fue hecho utilizando Reactjs. mirando hacia atras, debo reconocer que desaprobeche las posibilidades que la libreria ofrece, pero aun asi fue uno de mis primeros intentos en React y me gusta igual."
+                href="https://panchoportafoliobackend.herokuapp.com/tictactoe/index.html"
+                text="A jugar!"
+                />
             </div>
           </div>
         </section>

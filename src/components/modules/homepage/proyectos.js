@@ -5,8 +5,8 @@ function Proyect({ href, text, title, body, src }) {
     return (
         <div className="col-4 col-12-medium">
             <section className="highlight">
-                <a href="/" className="image featured"><img src={src} alt="" /></a>
-                <h3><a href="/">{title}</a></h3>
+                <a href={href} className="image featured"><img src={require(`${src}`)} alt="" /></a>
+                <h3><a href={href}>{title}</a></h3>
                 <p>{body}</p>
                 <ButtonAction href={href} text={text} />
             </section>
@@ -21,26 +21,13 @@ export default function Proyectos() {
             <div className="container">
                 <div className="row aln-center">
                     <Proyect
-                        title="Proyecto1"
-                        href="/"
-                        text="Mas.."
-                        body="en un lugar de la mancha cuyo nombre no quiero acordarme"
-                        src="https://picsum.photos/200/300"
+                        title="Ghibli Blog"
+                        href="https://panchoportafoliobackend.herokuapp.com/ghibliblog/index.html"
+                        text="Explora!"
+                        body="Un blog hecho para consumir la Api Studio Ghibli API. Creada utilizando ReactJS, React-Icons, React-Bootstrap y Create React App. la pagina fue organizada usando CSS Flexbox y React-Bootstrap"
+                        src="./GB.JPG"
                     />
-                    <Proyect
-                        text="Mas.."
-                        href="/"
-                        title="Proyecto2"
-                        body="en un lugar de la mancha cuyo nombre no quiero acordarme"
-                        src="https://picsum.photos/seed/picsum/200/300"
-                    />
-                    <Proyect
-                        text="Mas.."
-                        href="/"
-                        title="Proyecto3"
-                        body="en un lugar de la mancha cuyo nombre no quiero acordarme"
-                        src="https://picsum.photos/200/300?grayscale"
-                    />
+                    
                 </div>
             </div>
         </section>

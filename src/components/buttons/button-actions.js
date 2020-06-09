@@ -1,9 +1,9 @@
 import React from "react"
 
-export default function ButtonAction({href,text}){
+export default function ButtonAction({href,text,style}){
     return (
-        <ul className="actions">
-            <li><a href={href} className="button style1">{text}</a></li>
+        <ul className="actions" style={{alignSelf:"flex-end"}}>
+            <li><a href={href} className={`button ${style}`} target="blank" >{text}</a></li>
         </ul>
     )
 }
