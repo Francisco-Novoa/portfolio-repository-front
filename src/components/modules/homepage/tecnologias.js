@@ -66,6 +66,7 @@ export default function ProyectosMenores() {
                 description="Proyecto hecho como parte de 4Geeks Academy, es un juego simple de gato, fue hecho utilizando Reactjs. mirando hacia atras, debo reconocer que desaprobeche las posibilidades que la libreria ofrece, pero aun asi fue uno de mis primeros intentos en React y me gusta igual."
                 href="https://panchoportafoliobackend.herokuapp.com/tictactoe/index.html"
                 text="A jugar!"
+                
                 />
             </div>
           </div>

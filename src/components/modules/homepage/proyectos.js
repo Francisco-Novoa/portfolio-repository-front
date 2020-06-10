@@ -8,7 +8,10 @@ function Proyect({ href, text, title, body, src }) {
                 <a href={href} className="image featured"><img src={require(`${src}`)} alt="" /></a>
                 <h3><a href={href}>{title}</a></h3>
                 <p>{body}</p>
-                <ButtonAction href={href} text={text} />
+                <ButtonAction 
+                href={href}
+                 text={text}
+                  style={"style1"} />
             </section>
         </div>
     )
