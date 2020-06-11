@@ -1,6 +1,9 @@
 import React, { useState } from "react"
 import ButtonAction1, { ButtonAction2 } from "../../buttons/BottonesFuncionales"
-import Axios from "axios"
+import axios from "axios"
+
+
+const baseURL = "https://panchoportafoliobackend.herokuapp.com/email"
 
 //adding padding so vercel looks up
 export default function SendMessage() {
@@ -14,13 +17,14 @@ export default function SendMessage() {
     }
     const onSubmit = async () => {
         try {
-            const result = await Axios.post("https://panchoportafoliobackend.herokuapp.com/email", { sender: local.name, subject: local.email, body: local.message })
+            //https://panchoportafoliobackend.herokuapp.com/email
+            const result = await axios.post(`${baseURL}/email`, { sender: local.name, subject: local.email, body: local.message })
             console.log(result)
         }
         catch (error) {
             console.dir(error)
         }
-
+        cleanup()
     }
 
     const cleanup = () => {
