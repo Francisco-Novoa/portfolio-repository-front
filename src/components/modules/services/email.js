@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import ButtonAction1, { ButtonAction2 } from "../../buttons/BottonesFuncionales"
 import Axios from "axios"
 
-
+//adding padding so vercel looks up
 export default function SendMessage() {
     const [local, setLocal] = useState({
         name: "",
