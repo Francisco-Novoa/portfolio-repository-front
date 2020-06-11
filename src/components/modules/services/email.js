@@ -22,7 +22,7 @@ export default function SendMessage() {
             console.log(result)
         }
         catch (error) {
-            console.dir(error)
+            console.log(error)
         }
         cleanup()
     }
