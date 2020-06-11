@@ -3,7 +3,7 @@ import ButtonAction1, { ButtonAction2 } from "../../buttons/BottonesFuncionales"
 import axios from "axios"
 
 //comment
-const baseURL = "https://panchoportafoliobackend.herokuapp.com/email"
+const baseURL = "https://panchoportafoliobackend.herokuapp.com"
 
 //adding padding so vercel looks up
 export default function SendMessage() {
