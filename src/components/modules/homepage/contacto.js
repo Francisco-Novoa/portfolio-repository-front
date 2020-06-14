@@ -65,8 +65,7 @@ export default function Contacto() {
             <div className="container">
                 <header className="style1">
                     <p>
-                        Si tienes alguna oferta de trabajo, critica contructiva o algun deseo profundo y devorador de contactarme? la forma de es una forma directa de lograrlo.
-                        Si eso no te interesa pero aun asi deseas hablar conmigo, formas alternativas de decontacto estan a abajo y en la barra superior de la pagina.
+                        Formas de Contactarme se encuentran en la parte inferior. Hablame, veamos qué podemos hacer juntos.
     				</p>
                 </header>
                 <div className="row">

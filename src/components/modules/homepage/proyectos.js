@@ -27,7 +27,7 @@ export default function Proyectos() {
                         title="Ghibli Blog"
                         href="https://panchoportafoliobackend.herokuapp.com/ghibliblog/index.html"
                         text="Explora!"
-                        body="Un blog hecho para consumir la Api Studio Ghibli API. Creada utilizando ReactJS, React-Icons, React-Bootstrap y Create React App. la pagina fue organizada usando CSS Flexbox y React-Bootstrap"
+                        body="Un blog hecho para consumir la Api Studio Ghibli API. Creada utilizando ReactJS, React-Icons, React-Bootstrap y Create React App. la página fue organizada usando CSS Flexbox y React-Bootstrap"
                         src="./GB.JPG"
                     />
                     
