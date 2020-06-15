@@ -14,12 +14,15 @@ function SocialMedia() {
                             </div>
                             <div className="col-6">
                                 <h3>Redes Sociales</h3>
-                                <a href="https://www.linkedin.com/in/francisconovoaparada/" target="black">
-                                    <FaLinkedin size="50px" />
-                                </a>
-                                <a href="https://github.com/Francisco-Novoa" target="black">
-                                    <FaGithubSquare size="50px" />
-                                </a>
+                                <div style={{ display: "flex", justifyContent: "space-around" }}>
+                                    <a href="https://www.linkedin.com/in/francisconovoaparada/" target="black">
+                                        <FaLinkedin size="50px" />
+                                    </a>
+                                    <a href="https://github.com/Francisco-Novoa" target="black">
+                                        <FaGithubSquare size="50px" />
+                                    </a>
+                                </div>
+
                             </div>
                         </div>
                     </div>
