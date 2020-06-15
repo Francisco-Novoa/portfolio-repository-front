@@ -76,9 +76,9 @@ export default function ProyectosMenores() {
               />
               <Proyecto
                 title="Lista de Contactos"
-                description="Proyecto hecho inicialmente como parte del curso FullStackOpen, es una agenda de contactos, hecha en Reactjs que guarda nombre y número de contactos telefónicos. El backend, en Node.js y Express, guarda los contactos en una base de datos MongoDb gratuita proveida por MongoDB.com y accedida usando Mongoose. A consecuencia de eso los datos ingresados perduran en la base de datos pese a la naturaleza efímera de los dinos proveídos por heroku."
+                description="Proyecto hecho inicialmente como parte del curso FullStackOpen, es una agenda de contactos, hecha en Reactjs que guarda nombre y número de contactos telefónicos. El backend, en Node.js y Express, guarda los contactos en una base de datos MongoDb gratuita proveida por MongoDB.com y accedida usando Mongoose. A consecuencia de eso los datos ingresados perduran en la base de datos pese a la naturaleza efímera de los dynos nos proveídos por heroku."
                 href="https://powerful-tundra-94616.herokuapp.com/"
-                text="Pruebame"
+                text="RingRing!"
               />
             </div>
           </div>

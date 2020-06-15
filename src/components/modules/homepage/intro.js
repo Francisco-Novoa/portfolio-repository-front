@@ -9,7 +9,7 @@ export default function Intro() {
 
                 <p >
                     Soy una persona trabajadora, enfocada, creativa, curiosa y con muchos deseos de aprender cosas nuevas.
-                    Estoy Capacitado para crear páginas web, back y front end, usando Javascript y Python.
+                    Estoy capacitado para crear páginas web, back y front end, usando Javascript y Python.
                     Tengo experiencia interactuando con personas y clientes.
                     Estoy buscando trabajo donde aprender desarrollo web por dentro y afuera; donde crecer y perfeccionarme como desarrollador.
                 </p>
