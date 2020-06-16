@@ -57,7 +57,7 @@ export default function Proyectos() {
                         title="Ghibli Blog"
                         href="https://panchoportafoliobackend.herokuapp.com/ghibliblog/index.html"
                         text="Explora!"
-                        body="Un blog hecho para consumir la Api Studio Ghibli API. Creada utilizando ReactJS, React-Icons, React-Bootstrap y Create React App. la página fue organizada usando CSS Flexbox y React-Bootstrap"
+                        body="Un blog hecho para consumir la API 'Studio Ghibli API'. Creada utilizando ReactJS, React-Icons, React-Bootstrap y Create React App. la página fue organizada usando CSS Flexbox y React-Bootstrap"
                         src="./GB.JPG"
                     />
                     <Proyect2Folders
@@ -66,7 +66,7 @@ export default function Proyectos() {
                         href2="https://github.com/Francisco-Novoa/restaurant-chinchin-backend"
                         text="Front End"
                         text2="Back End"
-                        body="Una plataforma de donde Dueños de Restaurantes pueden poner sus productos en un menú, subir fotos de esos productos y colocarlos al alcance de usuarios de chinchin quienes realizar pedidos a los restaurants. Los pedidos son enviados utilizando email. Proyecto realizado en grupo siguiendo metodologias agiles y utilizando GitHub en todo momento. Debido a que este es un trabajo grupal, no he subido este proyecto a ningun servicio de hosting."
+                        body="Una plataforma de donde Dueños de Restaurantes pueden poner sus productos en un menú, subir fotos de esos productos y colocarlos al alcance de usuarios de chinchin quienes realizar pedidos a los restaurants. Los pedidos son enviados utilizando email. Proyecto realizado en grupo siguiendo metodologias agiles y utilizando GitHub en todo momento. Debido a que este es un trabajo grupal, no he subido este proyecto a ningun servicio de hosting. Tecnologias utilizadas: Reactjs, Flask, SQLAlchemy, Bootstrap, JWT, Bcrypt."
                         src="./CC.png"
                     />
 

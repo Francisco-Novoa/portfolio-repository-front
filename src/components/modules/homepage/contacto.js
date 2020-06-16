@@ -77,7 +77,7 @@ export default function Contacto() {
                 </div>
                 <div id="copyright">
                     <ul>
-                        <li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                        <li>&copy; </li><li>pagina hecha en base a un "Template" disponible en <a href="http://html5up.net">HTML5 UP</a></li>
                     </ul>
                 </div>
             </div>

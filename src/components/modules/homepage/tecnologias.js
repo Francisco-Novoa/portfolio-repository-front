@@ -46,7 +46,7 @@ export default function ProyectosMenores() {
           <header className="style1">
             <h2>Proyectos Menores</h2>
             <p>Aca hay series de proyectos menores, hechos para practicar o demostrar alguna tecnología en menor escala.</p>
-            <p>Cada proyecto esta hosteado en Heroku, así que la primera carga del proyecto puede tardar unos momentos mientras Heroku despierta el dyno que contiene el proyecto.</p>
+            <p>Cada proyecto esta <span style={{fontStyle:"italic"}}>"hosteado"</span> en Heroku, así que la primera carga del proyecto puede tardar unos momentos mientras Heroku despierta el dyno que contiene el proyecto.</p>
           </header>
           <div className="feature-list">
             <div className="row">
@@ -58,19 +58,19 @@ export default function ProyectosMenores() {
               />
               <Proyecto
                 title="Music Player"
-                description="Proyecto hecho como parte de 4Geeks Academy, es un reproductor de música que extrae los archivos desde una api de su propiedad."
+                description="Proyecto hecho como parte de 4Geeks Academy, es un reproductor de música que extrae los archivos desde una API de su propiedad."
                 href="https://panchoportafoliobackend.herokuapp.com/musicplayer/index.html"
                 text="8 bits"
               />
               <Proyecto
                 title="Tic Tac Toe/Noughts and Crosses/Gato"
-                description="Proyecto hecho como parte de 4Geeks Academy, es un juego simple de gato, fue hecho utilizando Reactjs. mirando hacia atrás, debo reconocer que desaproveche las posibilidades que la librería ofrece, pero aun así fue uno de mis primeros intentos en React y me gusta igual."
+                description="Proyecto hecho como parte de 4Geeks Academy, es un juego simple de gato, fue hecho utilizando Reactjs. mirando hacia atrás, debo reconocer que desaproveche las posibilidades que la librería ofrece, pero aun así fue uno de mis primeros intentos en React y me gusta igual. No funciona en dispositivos móviles, cuando tenga tiempo lo reconstruiré para que lo haga"
                 href="https://panchoportafoliobackend.herokuapp.com/tictactoe/index.html"
                 text="A jugar!"
               />
               <Proyecto
                 title="Simple To Do List"
-                description="Proyecto hecho inicialmente como parte de 4Geeks Academy, es una lista de tareas hecha para probar las capacidades de ReactJS, al ser auto contenido fue sujeto ideal para probar las capacidades de la plataforma de serverless web hosting heroku, que adicionalmente proveen el back end de esta página"
+                description="Proyecto hecho inicialmente como parte de 4Geeks Academy, es una lista de tareas hecha para probar las capacidades de ReactJS, al ser auto contenido fue sujeto ideal para probar las capacidades de la plataforma de serverless web hosting Heroku, que adicionalmente proveen el back end de esta página"
                 href="https://sleepy-island-61659.herokuapp.com/"
                 text="Pruebame"
               />
